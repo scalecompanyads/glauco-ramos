@@ -1,2 +1,2 @@
 *.webp
-!lp-pad/**/*.webp
+!img/*.webp
