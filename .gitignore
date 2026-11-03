@@ -1,2 +1,4 @@
 *.webp
 !img/*.webp
+!agrario/img/*.webp
+!empresarial/img/*.webp
