@@ -93,6 +93,7 @@ section{padding:80px 0}
 .hero .actions{margin-top:40px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
 .hero .actions small{font-size:13px;color:#a8a8a8;line-height:1.5}
 .hero .actions small b{color:#fff;font-weight:700;display:block}
+.hero .hero-note{font-size:13.5px;color:#a8a8a8;margin-top:14px}
 .hero-img{display:none}
 
 /* faixa de diferenciais sobre a dobra */
@@ -114,6 +115,8 @@ section{padding:80px 0}
 .card .num{font-family:"Playfair Display",serif;font-style:italic;font-size:1rem;color:var(--secondary);position:absolute;top:24px;right:28px;line-height:1}
 .card h3{margin-bottom:8px;padding-right:24px}
 .card p{color:var(--muted);font-size:15px}
+.rights{grid-template-columns:repeat(4,1fr)}
+.rights h3{font-size:1.15rem;margin-bottom:0;padding-right:0}
 .card.feature{background:var(--black);border-color:var(--black);color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:26px}
 .card.feature h3{color:#fff}
 .card.feature p{color:#bdbdbd}
@@ -167,11 +170,6 @@ section{padding:80px 0}
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:18px 32px;margin:26px 0 30px}
 .facts div{font-size:14px;color:var(--muted);line-height:1.6}
 .facts b{display:block;font-family:"Playfair Display",serif;font-weight:600;font-size:1.02rem;color:var(--text);margin-bottom:2px}
-.team{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:32px}
-.member{display:flex;align-items:center;gap:14px;background:#fff;padding:10px}
-.member img{width:52px;height:64px;object-fit:cover;object-position:top;flex:none}
-.member h3{font-size:1rem}
-.member span{font-size:12px;line-height:1.4;display:block;color:var(--muted)}
 
 /* FAQ */
 .faq-grid{display:grid;grid-template-columns:4fr 8fr;gap:64px;align-items:start}
@@ -263,13 +261,12 @@ footer a{color:#bdbdbd}
   .card .num{top:20px;right:22px}
   .cards{gap:14px}
   footer{padding-bottom:100px}
-  .cards,.steps,.risks,.services,.team,.facts{grid-template-columns:1fr}
+  .cards,.steps,.risks,.services,.facts{grid-template-columns:1fr}
   .services{gap:28px}
   .btn{width:100%}
   .hero .actions{gap:18px}
   .media .photo::after,.founder .photo::after{display:none}
   .deadline .box{grid-template-columns:1fr;padding:40px 26px;gap:26px;margin-top:-40px;margin-bottom:-40px}
-  .team{margin-top:26px}
   .final .cta-box{padding:56px 0}
   .final .info{margin:0 -18px;padding:52px 18px}
   summary{padding-right:40px}
@@ -299,9 +296,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-copy">
       <span class="kicker">Glauco Ramos Advogados</span>
       <h1>Recebeu notificação de Sindicância&nbsp;ou&nbsp;<em>PAD?</em></h1>
-      <p><strong>Defesa técnica para servidores públicos</strong> municipais, estaduais e federais, da análise da portaria aos recursos e, se preciso, à via&nbsp;judicial.</p>
+      <p><strong>Defesa técnica para servidores</strong> municipais, estaduais e federais. Atendimento sigiloso pelo WhatsApp, sem contato com o seu&nbsp;órgão.</p>
       <div class="actions">
         <a class="btn js-wa" data-cta="hero" href="https://wa.me/5543991244440?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20sobre%20um%20processo%20disciplinar%20(sindic%C3%A2ncia%2FPAD)." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Fale com um advogado<svg class="arrow"><use href="#arrow"/></svg></a>      </div>
+      <p class="hero-note">O PAD tem prazos legais para cada etapa da&nbsp;defesa.</p>
     </div>
   </div>
 </section>
@@ -349,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="risk-top">
       <div class="head">
         <span class="eyebrow">O que está em jogo</span>
-        <h2>Um PAD mal conduzido pode custar o seu&nbsp;cargo</h2>
+        <h2>Quais são as possíveis consequências de um&nbsp;PAD</h2>
         <span class="line"></span>
         <p>Sem uma defesa técnica, <strong>o processo segue sem a sua versão</strong> apresentada da forma correta. As consequências variam conforme o estatuto aplicável e a&nbsp;acusação.</p>
       </div>
@@ -362,6 +360,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="risk"><h3>Impedimento de retorno</h3><p>Ao serviço público, por um período ou <strong>de forma definitiva</strong>, em alguns casos de&nbsp;demissão.</p></div>
       <div class="risk"><h3>Reflexos em outras esferas</h3><p><strong>Cível, criminal ou improbidade</strong>, dependendo da&nbsp;acusação.</p></div>
       <div class="risk"><h3>Danos à reputação</h3><p>Diante dos colegas, da chefia e da&nbsp;comunidade.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4.1 SEUS DIREITOS -->
+<section>
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Suas garantias</span>
+      <h2>Seus direitos no&nbsp;PAD</h2>
+      <span class="line"></span>
+    </div>
+    <div class="cards rights">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Direito à ampla defesa e ao contraditório</h3></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div><h3>Acesso integral aos autos do processo</h3></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0"/><path d="M16 4a4 4 0 0 1 0 8M18 15a7 7 0 0 1 4 6"/></svg></div><h3>Direito de ser acompanhado por advogado</h3></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div><h3>Direito de produzir provas e indicar testemunhas</h3></div>
     </div>
   </div>
 </section>
@@ -444,11 +459,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <!-- PENDÊNCIA: OAB/PR nº e anos de atuação em Direito Administrativo -->
         <a class="btn js-wa" data-cta="fundador" href="https://wa.me/5543991244440?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20sobre%20um%20processo%20disciplinar%20(sindic%C3%A2ncia%2FPAD)." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Fale com um advogado<svg class="arrow"><use href="#arrow"/></svg></a>
-        <!-- PENDÊNCIA: confirmar quem atua na frente de PAD e incluir cargo/OAB -->
-        <div class="team">
-          <div class="member" ><img src="img/matheus-ramos.webp" alt="Matheus Ramos" width="700" height="1050" loading="lazy"><div><h3>Matheus Ramos</h3><span>Equipe Glauco Ramos Advogados</span></div></div>
-          <div class="member" ><img src="img/emanuelle-uhdre.webp" alt="Emanuelle Uhdre" width="700" height="1050" loading="lazy"><div><h3>Emanuelle Uhdre</h3><span>Equipe Glauco Ramos Advogados</span></div></div>
-        </div>
       </div>
     </div>
   </div>
